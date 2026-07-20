@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import { contact } from '../data/data';
+
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -20,7 +22,7 @@ function Navbar() {
         <li><a href="#experience">Experience</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <a href="mouhamedzeghlache7@gmail.com" className="nav-cta">Hire me</a>
+      <a href={`mailto:${contact.email}`} className="nav-cta">Hire me</a>
     </nav>
   );
 }
