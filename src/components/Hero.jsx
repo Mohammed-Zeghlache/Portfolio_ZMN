@@ -1,4 +1,6 @@
 import { stack } from '../data/data';
+import { contact } from '../data/data';
+
 
 function Hero() {
   return (
@@ -27,7 +29,7 @@ function Hero() {
                   <path d="M5 12h14M12 5l7 7-7 7"/>
                 </svg>
               </a>
-              <a href="mouhamedzeghlache7@gmail.com" className="btn btn-ghost">Get in touch</a>
+              <a href={`mailto:${contact.email}`} className="btn btn-ghost">Get in touch</a>
             </div>
             <div className="hero-stack">
               {stack.map((tech, i) => (
