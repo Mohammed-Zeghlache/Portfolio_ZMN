@@ -11,7 +11,7 @@ function About() {
         <div className="about-left reveal">
           <div className="about-bio">
             <p>
-              I'm a <strong>Computer Science student at University of Msila (Algeria)</strong> and <strong>Full-Stack Developer</strong>, with additional training in <strong>Full-Stack Web Development from BrainerX School</strong>. I'm passionate about AI and building scalable web applications that solve real-world problems.
+              I'm a <strong>Computer Science student at the University of Msila (Algeria)</strong> and <strong>Full-Stack Developer</strong>, with additional training in <strong>Full-Stack Web Development from BrainerX School</strong>. I'm passionate about AI and building scalable web applications that solve real-world problems.
             </p>
             <p>I enjoy turning ideas into real products, from designing intuitive user interfaces to developing secure APIs, databases, and deploying complete applications. I'm always learning new technologies and solving real-world problems through software <strong>Development</strong>.</p>
           </div>
