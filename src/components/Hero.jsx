@@ -10,7 +10,7 @@ function Hero() {
       <div className="orb orb-3"></div>
       <div className="hero-grid"></div>
       <div className="hero-content">
-        <div className="hero-eyebrow">Full-Stack Web Developer  Computer Science Student</div>
+        <div className="hero-eyebrow">Full-Stack Web Developer . Computer Science Student</div>
         <h1 className="hero-name">
           Building<br/>
           <span className="italic">AI-powered</span> web applications<br/>
