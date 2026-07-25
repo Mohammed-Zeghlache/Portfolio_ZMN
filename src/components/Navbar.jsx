@@ -22,7 +22,7 @@ function Navbar() {
         <li><a href="#experience">Experience</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <a href={`mailto:${contact.email}`} className="nav-cta">Hire me</a>
+      <a href="#contact" className="nav-cta">Hire me</a>
     </nav>
   );
 }
